@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerApp.SnakeGame", "BlazorServerApp.SnakeGame\BlazorServerApp.SnakeGame.csproj", "{7A191F37-DEE5-4F39-B022-0BDAA1EDA12B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snake.Game.Import", "Snake.Game.Import\Snake.Game\Snake.Game.Import.csproj", "{D92FE155-1A90-4E83-AA69-9B4A142BF36A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A191F37-DEE5-4F39-B022-0BDAA1EDA12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A191F37-DEE5-4F39-B022-0BDAA1EDA12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A191F37-DEE5-4F39-B022-0BDAA1EDA12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A191F37-DEE5-4F39-B022-0BDAA1EDA12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92FE155-1A90-4E83-AA69-9B4A142BF36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92FE155-1A90-4E83-AA69-9B4A142BF36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92FE155-1A90-4E83-AA69-9B4A142BF36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92FE155-1A90-4E83-AA69-9B4A142BF36A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDF2DAA6-8F3E-4616-BD04-8227232D56F3}
+	EndGlobalSection
+EndGlobal
