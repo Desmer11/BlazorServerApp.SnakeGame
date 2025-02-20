@@ -27,6 +27,14 @@ body {
     color: whitesmoke;
 }
 
+
+
+.main_menu_title {
+    font-size: var(--size-5xl);
+    font-weight: bold;
+}
+
+
 button {
     display: inline-block;
     padding: 0;
@@ -36,5 +44,19 @@ button {
     color: inherit;
 }
 
+.standard_button {
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: var(--size-base);
+    padding: var(--size-base);
+    color: inherit;
+    font-size: var(--size-2xl);
+    font-weight: bold;
+    transition: border-color ease 0.3s;
+}
 
-
+    .standard_button:hover {
+        color: inherit;
+        border: 2px solid inherit;
+    }
