@@ -1,0 +1,12 @@
+.game_container{
+    display: grid;
+    grid-template-rows: repeat(40, var(--size-base));
+    grid-template-columns: repeat(40, var(--size-base));
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+}
+
+.game_empty_cell{
+    background-color: black;
+}

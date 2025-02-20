@@ -1,0 +1,13 @@
+﻿@page "/SnakeGame"
+
+<PageTitle>Snake Game</PageTitle>
+
+<div class="game_container">
+	@for (int i = 0; i < Vm.MAX_GAME_GRID_ROWS * Vm.MAX_GAME_GRID_COLUMNS; i++)
+	{
+		<div class="game_empty_cell"></div>
+	}
+</div>
+
+<a class="standard_button" href="/highScores">High Scores</a>
+<a class="standard_button" href="/">Main Menu</a>

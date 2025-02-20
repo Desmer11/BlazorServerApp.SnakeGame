@@ -1,17 +1,37 @@
 .main_menu_container {
     display: grid;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
+    justify-items: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Ensure all content is centered */
     background-color: black;
-    height: 90vh;
+    height: 90vh; /* Take up most of the vertical space */
     width: 80%;
-    max-width: 50rem; 
+    max-width: 50rem;
     margin: 0 auto;
     margin-top: var(--size-base);
     border-radius: var(--size-base);
+    text-align: center; /* Center text horizontally inside the container */
+    gap: 5px; /* Further reduce space between the elements */
 }
 
 .main_menu_title {
     font-size: var(--size-7xl);
+    color: white; /* Make the title white for contrast */
+    margin: 0; /* Remove any default margin */
 }
+
+.standard_button {
+    display: inline-block; /* Make sure the links appear like buttons */
+    padding: 10px 20px;
+    margin: 2px 0; /* Further reduce space between buttons */
+    background-color: #444; /* Dark button background */
+    color: white; /* White text on the button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2rem; /* Increase font size slightly */
+    text-align: center; /* Center text inside button */
+}
+
+    .standard_button:hover {
+        background-color: #666; /* Change button color on hover */
+    }

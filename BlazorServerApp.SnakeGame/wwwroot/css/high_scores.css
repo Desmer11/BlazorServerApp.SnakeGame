@@ -1,0 +1,16 @@
+.highScore_title {
+    font-size: var(--size-7xl);
+    color: white; /* Make the title white for contrast */
+    margin: 0; /* Remove any default margin */
+}
+
+.highScore_menu_container{
+    display: grid;
+    justify-items: center;
+    align-items:center;
+    justify-content:center;
+    height: 90vh;
+    background-color: black;
+    margin: 0 auto;
+    min-height: 700px;
+}
