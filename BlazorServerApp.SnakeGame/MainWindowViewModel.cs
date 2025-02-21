@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using BlazorServerApp.SnakeGame.Pages;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -29,14 +30,50 @@ public partial class MainWindowViewModel : ObservableObject
 
 	private Window _window;
 
+=======
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+using Snake.Game;
+
+namespace Blazor.Snake;
+
+
+
+
+public partial class MainWindowViewModel : ObservableObjects
+{
+	#region Fields
+
+>>>>>>> 2459c05bafb10a3985258646031cb85e040c043e
 	private Random _random = new Random();
 
 	private const int MAX_GAME_GRID_SIZE = 400;
 	private const int MAX_GAME_GRID_ROWS = 40;
 	private const int MAX_GAME_GRID_COLUMNS = 40;
+<<<<<<< HEAD
 	private const string HIGH_SCORES_PATH = "Resources/HighScores.json";
 
 	private Direction _currentDirection = Direction.DOWN;
+=======
+	private const int HIGH_SCORES_PATH = "Resources/HighScores.json";
+
+	private Direction _currentDirection = Direction.Down;
+>>>>>>> 2459c05bafb10a3985258646031cb85e040c043e
 	private Queue<NextMove> _nextMoves = new Queue<NextMove>();
 	private object _lock = new object();
 	private int _snakeSpeed = 200;
@@ -45,6 +82,7 @@ public partial class MainWindowViewModel : ObservableObject
 
 	#region Properties
 
+<<<<<<< HEAD
 	/// <summary>
 	/// The size of the game grid
 	/// </summary>
@@ -468,4 +506,16 @@ public partial class MainWindowViewModel : ObservableObject
 	}
 
 	#endregion
+=======
+	public int GameGridSize => MAX_GAME_GRID_SIZE;
+
+
+	#endregion
+
+
+
+
+
+
+>>>>>>> 2459c05bafb10a3985258646031cb85e040c043e
 }
