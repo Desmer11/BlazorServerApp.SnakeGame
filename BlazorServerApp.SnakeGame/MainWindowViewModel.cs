@@ -18,7 +18,7 @@ using System.Windows.Data;
 using System.Windows.Input;
 using static System.Formats.Asn1.AsnWriter;
 
-namespace WPF_Snake.ViewModels;
+namespace Blazor_Snake;
 
 /// <summary>
 /// The main window view model for the main window
